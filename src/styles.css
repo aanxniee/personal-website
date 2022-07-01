@@ -1,1 +1,117 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #000;
+    --secondary-color: #4C6250;
+    --font-color: #000;
+    --bg-color: #fff;
+    --heading-color: #000;
+}
+  
+[data-theme="dark"] {
+    --primary-color: #fff;
+    --secondary-color: #fff;
+    --font-color: #fff;
+    --bg-color: #4C6250;
+    --heading-color: #fff;
+}
+  
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: poppins, sans-serif;
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+body:not(.dark-mode-preloading) {
+    transition: all 0.3s linear;
+}
+  
+body.dark-mode {
+    background-color: #4C6250;
+    color: #fff;
+}
+  
+body.light-mode {
+    background-color: #F2F2F2;
+    color: #000;
+}
+  
+h1.dark-mode {
+    color: #fff;
+}
+  
+h1.light-mode {
+    color: #000;
+}
+  
+h2.dark-mode {
+    color: #fff;
+}
+  
+h2.light-mode {
+    color: #000;
+}
+  
+h3.dark-mode {
+    color: #D2E6D6;
+}
+  
+h3.light-mode {
+    color: #D2E6D6;
+}
+  
+h4.dark-mode {
+    color: #fff;
+}
+  
+h4.light-mode {
+    color: #000;
+}
+  
+p.dark-mode {
+    color: #fff;
+}
+  
+p.light-mode {
+    color: #000;
+}
+  
+a.dark-mode {
+    color: #000;
+}
+  
+a.light-mode {
+    color: #fff;
+}
+  
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 106px;
+}
+  
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+  
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+  
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+  
+p {
+    font-size: 17px;
+    font-weight: normal;
+}
+  
+svg path{
+    fill: var(--font-color);;
+}
