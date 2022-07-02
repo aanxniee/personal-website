@@ -1,1 +1,15 @@
-<p>home works!</p>
+<div class='home-container'>
+    <h1>Hi, I'm Annie!</h1>
+    <h2 class="home-subheading">I'm
+        <span [hidden]="!darkMode" class="tw" #tw></span>
+        <span [hidden]="darkMode" class="twdark" id="twdark"></span>
+    </h2>
+    <a [hidden]="darkMode">
+        <img src ="assets/home_light.svg">
+    </a>
+    <a [hidden]="!darkMode">
+    <img src ="assets/home_dark.svg">
+    </a>
+    <app-dark-mode-toggle (onDarkModeChosen)="setDarkMode($event)"></app-dark-mode-toggle>
+</div>
+<app-contact></app-contact>

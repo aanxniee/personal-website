@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 export class AppComponent {
   darkMode: boolean = false;
   darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
-  title="portfolio"
+  title="personal-website"
   
 
   constructor(private darkModeService: DarkModeService) { }
