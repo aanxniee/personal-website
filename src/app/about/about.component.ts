@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { DarkModeService } from 'angular-dark-mode';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  darkMode: boolean = false;
+  darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
+  
+  constructor(private darkModeService: DarkModeService) { }
 
   ngOnInit(): void {
+    this.darkMode$.subscribe(data => this.darkMode = data);
   }
 
 }

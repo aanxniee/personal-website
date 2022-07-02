@@ -1,1 +1,28 @@
-<p>about works!</p>
+<div class='about-container'>
+    <div class='about-header'><h2>About Me</h2></div>
+
+    <div class='about-general'>
+        <div class='about-picture'>
+            <a [hidden]="darkMode">
+                <img src ="assets/about_light.svg" width = 415 height = 415>
+                </a>
+            <a [hidden]="!darkMode">
+                <img src ="assets/about_dark.svg" width = 415 height = 415>
+            </a>
+        </div>
+
+        <p class="about-bio">
+            <br>Nice to meet you! My name is Annie (she/her) and I'm an incoming first year Systems Design Engineering Student at the University of Waterloo.<br>
+        
+            <br>I'm interested in the intersection between design and technology and through my passion, I hope to create a more inclusive digital world. I am goal-oriented and I never pass an opportunity to try new things. I would love the chance to explore front-end development and UI/UX.<br>
+        
+            <br>In my free time, I enjoy visiting aesthetic cafes, skateboarding, hitting the gym, and binge-watching anime.<br>
+        
+            <br>I’m also currently exploring Winter 2022 internship opportunities. 
+            <a href="mailto:anniecai2004@gmail.com"><span [style.color]="!darkMode ? 'black' : 'white'" style="text-decoration:underline; font-weight:400;">Get in touch</span></a>.
+            <br>
+            <br>
+        </p>
+    </div>
+</div>
+<app-contact></app-contact>

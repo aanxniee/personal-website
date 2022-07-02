@@ -1,0 +1,49 @@
+.about-header {
+    text-align: center;
+    align-items: center;
+    margin-top:2rem;
+}
+
+.about-container {
+    align-items: center;
+    flex-direction: space-between;
+}
+
+.about-general {
+    display: flex;
+    padding-right:2rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight:700;
+}
+
+.about-picture {
+    padding-right:5rem;
+}
+
+@media screen and (max-width: 800px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    p, li{
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .about-bio {
+        padding-right:0;
+    }
+    
+    .about-picture{
+        width: 40vw;
+        margin-top: 1rem;
+    }
+}
