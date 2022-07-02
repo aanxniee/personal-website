@@ -21,6 +21,7 @@ export class HomeComponent implements OnInit, AfterViewInit  {
   }
 
   ngAfterViewInit() {
+    // use different targets depending on whether it is dark mode or light mode
     const targetLight = this.typewriterElement.nativeElement;
     const targetDark = document.getElementById('twdark');
 
