@@ -4,14 +4,12 @@
         <span [hidden]="!darkMode" class="tw" #tw></span>
         <span [hidden]="darkMode" class="twdark" id="twdark"></span>
     </h2>
-    
     <a [hidden]="darkMode">
-        <img src ="assets/home_light.svg" width="550" height="550">
-    </a>    
-    <a [hidden]="!darkMode">
-    <img src ="assets/home_dark.svg" width="550" height="550">
+        <img src ="assets/home_light.svg">
     </a>
-    
-    <app-dark-mode-toggle (onDarkModeChosen)="setDarkMode($event)"></app-dark-mode-toggle>
+    <a [hidden]="!darkMode">
+    <img src ="assets/home_dark.svg">
+    </a>
+    <app-dark-mode-toggle></app-dark-mode-toggle>
 </div>
 <app-contact></app-contact>

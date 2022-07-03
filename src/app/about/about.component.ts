@@ -17,5 +17,4 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
     this.darkMode$.subscribe(data => this.darkMode = data);
   }
-
 }
