@@ -17,7 +17,7 @@ import { DarkModeToggleComponent } from './home/dark-mode-toggle/dark-mode-toggl
     AboutComponent,
     ExperiencesComponent,
     ContactComponent,
-    DarkModeToggleComponent
+    DarkModeToggleComponent,
   ],
   imports: [
     BrowserModule,

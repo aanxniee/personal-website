@@ -12,7 +12,6 @@ export class AppComponent {
   darkMode: boolean = false;
   darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
   title="personal-website"
-  
 
   constructor(private darkModeService: DarkModeService) { }
 
