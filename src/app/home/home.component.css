@@ -21,4 +21,8 @@
         line-height: 6vw;
         padding-top: 1.5rem;
     }
+
+    img {
+        width: 80vw;
+    }
 }

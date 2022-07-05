@@ -24,7 +24,7 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-    .about-container {
+    .about-general {
         flex-direction: column;
     }
 

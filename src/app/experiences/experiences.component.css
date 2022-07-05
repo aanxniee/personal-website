@@ -278,4 +278,7 @@ ul {
         line-height: 15px;
     }
 
+    .buttons {
+        width: 40vw;
+    }
 }
