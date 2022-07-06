@@ -48,6 +48,15 @@ a:focus::after {
 	transform: translate3d(0, 0.05em, 0);
 }
 
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
 @media screen and (max-width: 768px) {
     .app {
         padding: 2rem 5vw;
