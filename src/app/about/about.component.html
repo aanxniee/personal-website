@@ -4,15 +4,15 @@
     <div class='about-general'>
         <div class='about-picture'>
             <a [hidden]="darkMode">
-                <img src ="assets/about_light.svg" width = 415 height = 415>
+                <img src ="assets/about_light.svg">
             </a>
             <a [hidden]="!darkMode">
-                <img src ="assets/about_dark.svg" width = 415 height = 415>
+                <img src ="assets/about_dark.svg">
             </a>
         </div>
 
-        <p class="about-bio">
-            <br>Nice to meet you! My name is Annie (she/her) and I'm an incoming first year Systems Design Engineering Student at the University of Waterloo.<br>
+        <div class="about-bio">
+            Nice to meet you! My name is Annie (she/her) and I'm an incoming first year Systems Design Engineering Student at the University of Waterloo.<br>
         
             <br>I'm interested in the intersection between design and technology and through my passion, I hope to create a more inclusive digital world. I am goal-oriented and I never pass an opportunity to try new things. I would love the chance to explore front-end development and UI/UX.<br>
         
@@ -20,9 +20,7 @@
         
             <br>I’m also currently exploring Winter 2022 internship opportunities. 
             <a href="ajcai@uwaterloo.ca"><span [style.color]="!darkMode ? 'black' : 'white'" style="text-decoration:underline; font-weight:400;">Get in touch</span></a>.
-            <br>
-            <br>
-        </p>
+        </div>
     </div>
 </div>
 <app-contact></app-contact>
