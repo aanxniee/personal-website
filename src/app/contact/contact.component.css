@@ -7,13 +7,7 @@
 }
 
 img {
-    margin: 0 1rem;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    margin: 0 0.8rem;
 }
 
 @media screen and (max-width: 800px) {
