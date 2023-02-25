@@ -1,7 +1,7 @@
 .about-header {
     text-align: center;
     align-items: center;
-    margin-top:2rem;
+    margin-top: 2rem;
 }
 
 .about-container {
@@ -12,24 +12,20 @@
 .about-general {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .about-picture {  
-    padding-right: 5rem;
+    transform: scale(0.8);
 }
 
-img {
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+.about-bio {
+    width: 50%;
 }
 
 @media screen and (max-width: 800px) {
@@ -44,17 +40,19 @@ img {
     }
 
     p, li{
-        font-size: 11px;
+        font-size: 12px;
         line-height: 15px;
     }
 
     .about-bio {
-        padding-top: 20px;
-        font-size: 11px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 12px;
+        width: 80%;
     }
     
     .about-picture{
-        margin-top: 1rem;
+        margin-top: 0px;
         padding-right: 0;
     }
 
