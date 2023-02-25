@@ -13,11 +13,14 @@ export class HomeComponent implements OnInit, AfterViewInit  {
   @ViewChild('tw') typewriterElement;
   darkMode: boolean = false;
   darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
+  greetings: string[] = ['Hello', 'Hey', '你好', 'Hi', 'Bonjour', '안녕']
+  greeting:string = '';
   
   constructor(private darkModeService: DarkModeService) { }
 
   ngOnInit(): void {
     this.darkMode$.subscribe(data => this.darkMode = data);
+    this.greeting = this.greetings[Math.floor(Math.random() * this.greetings.length)];
   }
 
   ngAfterViewInit() {
@@ -29,8 +32,8 @@ export class HomeComponent implements OnInit, AfterViewInit  {
       loop: true,
       cursorColor: '#D2E6D6',
       typeColor: 'white',
-      deleteSpeed: 25,
-      typeSpeed: 150,
+      deleteSpeed: 30,
+      typeSpeed: 190,
       blinkSpeed: 230,
       animateCursor: true,
     })
@@ -38,19 +41,19 @@ export class HomeComponent implements OnInit, AfterViewInit  {
     writerLight
     .strings(
       1500,
-      "a programmer. 💻", 
-      "passionate about UI/UX. ✏️", 
-      "an advocate for women in STEM. 💖",
-      "a lifelong learner. 📚",
-      "a Studio Ghibli enthusiast. 🧸",
-      "a nature lover. 🌲", 
+      "a programmer and a lifelong learner. 💻", 
+      "a nature lover and matcha addict. 🍵",
+      "passionate about development and design. ✏️", 
+      "working to cultivate a more inclusive and diverse tech community. 💖",
+      "excited for new homes in tech. 📚",
+      "inspired by people that love what they do. ⭐",
       "happy to meet you! 👋🏻"
     ).start()
 
     const writerDark = new Typewriter(targetDark, {
       loop: true,
-      deleteSpeed: 25,
-      typeSpeed: 150,
+      deleteSpeed: 30,
+      typeSpeed: 190,
       blinkSpeed: 230,
       animateCursor: true,
     })
@@ -58,12 +61,12 @@ export class HomeComponent implements OnInit, AfterViewInit  {
     writerDark
     .strings(
       1500,
-      "a programmer. 💻", 
-      "passionate about UI/UX. ✏️", 
-      "an advocate for women in STEM. 💖",
-      "a lifelong learner. 📚",
-      "a Studio Ghibli enthusiast. 🧸",
-      "a nature lover. 🌲", 
+      "a programmer and a lifelong learner. 💻", 
+      "a nature lover and matcha addict. 🍵",
+      "passionate about development and design. ✏️", 
+      "working to cultivate a more inclusive and diverse tech community. 💖",
+      "excited for new homes in tech. 📚",
+      "inspired by people that love what they do. ⭐",
       "happy to meet you! 👋🏻"
     ).start()
   }
