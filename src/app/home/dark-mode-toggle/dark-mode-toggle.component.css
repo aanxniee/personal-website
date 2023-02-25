@@ -11,13 +11,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-    .toggle-label {
-        width: 8vw;
-        height: 8vw;
-    }
-}
-
 .sun,
 .moon {
     position: absolute;
@@ -26,6 +19,8 @@
     height: auto;
     transition: top 0.7s;
     user-select: none;
+    transform: scale(0.8);
+    margin-top: 5px;
 }
   
 .sun {
@@ -42,4 +37,17 @@
   
 .toggle:checked + .toggle-label .moon {
     top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle-label {
+        width: 8vw;
+        height: 8vw;
+    }
+
+    .sun,
+    .moon {
+        margin-top: 0;
+        transform: scale(1);
+    }
 }

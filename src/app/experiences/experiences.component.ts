@@ -39,6 +39,6 @@ export class ExperiencesComponent implements OnInit {
 
   ngOnDestroy(): void {
     this.sub.unsubscribe();
+    this.darkMode$.subscribe(data => this.darkMode = data);
   }
-
 }

@@ -1,17 +1,17 @@
 :root {
-    --primary-color: #000;
+    --primary-color: #313638;
     --secondary-color: #4C6250;
-    --font-color: #000;
-    --bg-color: #fff;
-    --heading-color: #000;
+    --font-color: #313638;
+    --bg-color: #e1e1e5;
+    --heading-color: #313638;
 }
   
 [data-theme="dark"] {
-    --primary-color: #fff;
-    --secondary-color: #fff;
-    --font-color: #fff;
+    --primary-color: #e1e1e5;
+    --secondary-color: #e1e1e5;
+    --font-color: #e1e1e5;
     --bg-color: #4C6250;
-    --heading-color: #fff;
+    --heading-color: #e1e1e5;
 }
   
 html, body {
@@ -30,28 +30,28 @@ body:not(.dark-mode-preloading) {
   
 body.dark-mode {
     background-color: #4C6250;
-    color: #fff;
+    color: #e1e1e5;
 }
   
 body.light-mode {
-    background-color: #F2F2F2;
-    color: #000;
+    background-color: #e1e1e5;
+    color: #313638;
 }
   
 h1.dark-mode {
-    color: #fff;
+    color: #e1e1e5;
 }
   
 h1.light-mode {
-    color: #000;
+    color: #313638;
 }
   
 h2.dark-mode {
-    color: #fff;
+    color: #e1e1e5;
 }
   
 h2.light-mode {
-    color: #000;
+    color: #313638;
 }
   
 h3.dark-mode {
@@ -59,31 +59,31 @@ h3.dark-mode {
 }
   
 h3.light-mode {
-    color: #D2E6D6;
+    color: #e1e1e5;
 }
   
 h4.dark-mode {
-    color: #fff;
+    color: #e1e1e5;
 }
   
 h4.light-mode {
-    color: #000;
+    color: #313638;
 }
   
 p.dark-mode {
-    color: #fff;
+    color: #e1e1e5;
 }
   
 p.light-mode {
-    color: #000;
+    color: #313638;
 }
   
 a.dark-mode {
-    color: #000;
+    color: #313638;
 }
   
 a.light-mode {
-    color: #fff;
+    color: #e1e1e5;
 }
   
 h1 {

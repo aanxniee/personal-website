@@ -5,7 +5,7 @@
 }
 
 .card {
-    border: 3px solid #fff;
+    border: 3px solid;
     padding: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -79,10 +79,10 @@ a:focus::after {
 
 .dark-projects,
 .dark-resume {
-    background-color: #fff;
+    background-color: #e1e1e5;
     backface-visibility: hidden;
     border-radius: .25rem;
-    border: 0.125rem solid #fff;
+    border: 0.125rem solid #e1e1e5;
     box-sizing: border-box;
     color: #4C6250;
     cursor: pointer;
@@ -103,7 +103,7 @@ a:focus::after {
     border-radius: .25rem;
     border: 0.125rem solid #4C6250;
     box-sizing: border-box;
-    color: #fff;
+    color: #e1e1e5;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -144,11 +144,9 @@ a:focus::after {
     }
     
     .card {
-        border: 3px solid #fff;
         padding: 20px;
         margin-top: 30px;
         margin-bottom: 0px;
-        border-radius: .3rem;
     }
 
     .buttons {

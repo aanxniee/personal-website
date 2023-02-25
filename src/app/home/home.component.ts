@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit, AfterViewInit  {
     const writerLight = new Typewriter(targetLight, {
       loop: true,
       cursorColor: '#D2E6D6',
-      typeColor: 'white',
+      typeColor: '#e1e1e5',
       deleteSpeed: 30,
       typeSpeed: 100,
       blinkSpeed: 230,
@@ -52,6 +52,7 @@ export class HomeComponent implements OnInit, AfterViewInit  {
 
     const writerDark = new Typewriter(targetDark, {
       loop: true,
+      typeColor: '#313638',
       deleteSpeed: 30,
       typeSpeed: 100,
       blinkSpeed: 230,
