@@ -3,41 +3,53 @@
         <h2>My Experiences</h2>
     </div>
     <div class='work'>
-        <h3>Work Experience Highlights</h3>
+        <h3>Work/Extracurricular Highlights</h3>
         <div *ngFor="let workexp of work">
-            <h4>{{workexp.jobTitle}} @ <a [style.color]="!darkMode ? 'black' : 'white'" class='company' href={{workexp.url}}>{{workexp.company}}</a></h4>
-            <ul>
-                <li *ngFor="let description of workexp.description"><p>{{description}}</p></li>
-            </ul>
-            <p>
-                <span *ngIf='workexp.technologies'>
-                    <p><span style='font-weight:700'>Technologies</span>: {{workexp.technologies}}</p>
-                </span>
-                {{workexp.date}} - {{workexp.location}}
-            </p>
+            <div class="card">
+                <h4>{{workexp.jobTitle}} @ <a [style.color]="!darkMode ? 'black' : 'white'" class='company'
+                        href={{workexp.url}}>{{workexp.company}}</a></h4>
+                <ul>
+                    <li *ngFor="let description of workexp.description">
+                        <p>{{description}}</p>
+                    </li>
+                </ul>
+                <p>
+                    <span *ngIf='workexp.technologies'>
+                        <p><span style='font-weight:700'>Technologies</span>: {{workexp.technologies}}</p>
+                    </span>
+                    {{workexp.date}} - {{workexp.location}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="buttons" id="b">
+        <div [hidden]="darkMode">
+            <button class='light-resume' onclick="window.location.href='assets/Annie_Cai_Resume.pdf'">Resume</button>
+        </div>
+        <div [hidden]="!darkMode">
+            <button class='dark-resume' onclick="window.location.href='assets/Annie_Cai_Resume.pdf'">Resume</button>
         </div>
     </div>
     <div class='side-projects'>
         <h3>Some Cool Personal Projects</h3>
         <div *ngFor="let project of projects">
-            <h4><a class='project-name' [style.color]="!darkMode ? 'black' : 'white'"
+            <div class="card">
+                <h4><a class='project-name' [style.color]="!darkMode ? 'black' : 'white'"
                     href={{project.github}}>{{project.name}}</a></h4>
-            <p class='project-description'>{{project.description}}</p>
-            <p><span style='font-weight:700'>Technologies</span>: {{project.technologies}}</p>
+                <p class='project-description'>{{project.description}}</p>
+                <p><span style='font-weight:700'>Technologies</span>: {{project.technologies}}</p>
+            </div>
         </div>
     </div>
     <div class="buttons" id="b">
         <div [hidden]="darkMode">
             <button class='light-projects'
-                onclick="window.location.href='https://shadow-river-284.notion.site/8cd042c02c544b4ab9692e84daccd728?v=759033c1150549efb321fe4f8ea23ba5'">Projects</button>
-            <button class='light-resume' onclick="window.location.href='assets/Annie_Cai_Resume.pdf'">Resume</button>
+                onclick="window.location.href='https://anniecai.notion.site/anniecai/8cd042c02c544b4ab9692e84daccd728?v=759033c1150549efb321fe4f8ea23ba5'">Projects</button>
         </div>
         <div [hidden]="!darkMode">
             <button class='dark-projects'
-                onclick="window.location.href='https://shadow-river-284.notion.site/8cd042c02c544b4ab9692e84daccd728?v=759033c1150549efb321fe4f8ea23ba5'">Projects</button>
-            <button class='dark-resume' onclick="window.location.href='assets/Annie_Cai_Resume.pdf'">Resume</button>
+                onclick="window.location.href='https://anniecai.notion.site/anniecai/8cd042c02c544b4ab9692e84daccd728?v=759033c1150549efb321fe4f8ea23ba5'">Projects</button>
         </div>
     </div>
 </div>
-
 <app-contact></app-contact>

@@ -1,14 +1,41 @@
 [
     {
-        "jobTitle": "",
-        "company": "",
+        "jobTitle": "Software Developer",
+        "company": "Home Trust Company",
         "description": [
-            
+            "Actively update the GIC rates on the Oaken Financial website",
+            "Maintained scalable digital banking applications using Angular, resulting in a seamless user experience for over 500 clients",
+            "Streamlined data collection through Azure SQL, including designing and optimizing database queries and indexes to enhance performance and minimize downtime",
+            "Utilized scrum agile methodologies and collaborated with cross-functional teams to gather requirements and translate them into technical specifications, resulting in an 100% on-time delivery rate."
         ],
-        "technologies": "",
-        "date": "",
-        "location": "",
-        "url": ""
+        "technologies": "Angular, Typescript, ASP.NET, Microsoft Azure, Umbraco, Wordpress",
+        "date": "Jan 2023 - Present",
+        "location": "Toronto, ON",
+        "url": "https://www.hometrust.ca/"
+    },
+    {
+        "jobTitle": "Web Developer",
+        "company": "Easy Media Inc.",
+        "description": [
+            "Designed and developed new web applications from inception to finish for 4 non-profit organizations, with a 95% satisfaction rate",
+            "Utilized WordPress plugins and themes to enhance website functionality and user experience and integrated third-party APIs and services such as Google Maps, Stripe, and PayPal"
+        ],
+        "technologies": "Wordpress, Figma, Adobe Suite, HTML, CSS",
+        "date": "Dec 2021 - Jun 2022",
+        "location": "Toronto, ON",
+        "url": "http://easymediainc.com/"
+    },
+    {
+        "jobTitle": "Fullstack Developer",
+        "company": "UW Tech+",
+        "description": [
+            "Participated in the continuous improvement of website development processes, including adopting new technologies and tools, and contributed to the overall success of the UW Tech+ website, resulting in a 20% increase in user satisfaction",
+            "Designed and developed RESTful APIs using Python Flask to facilitate seamless data exchange between the front-end and back-end systems"
+        ],
+        "technologies": "ReactJS, Python, Flask, PostgreSQL",
+        "date": "Jan 2023 - Present",
+        "location": "Waterloo, ON",
+        "url": "https://www.techplusuw.com/"
     }
 
 ]
