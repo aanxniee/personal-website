@@ -13,7 +13,7 @@
     },
     {
         "name": "Cryptocurrency Checker",
-        "description": "Fetches the latest crypto currency data in CAD/USD, including price, 24h change, and market cap. Established a Chart.js and Cloud Firestore based datafow to allow for dynamic server‐driven content updates.",
+        "description": "Fetches the latest crypto currency data in CAD/USD, including price, 24h change, and market cap. Established a Chart.js and Cloud Firestore based dataflow to allow for dynamic server‐driven content updates.",
         "technologies": "Angular, Typescript, HTML5, CSS, Coin Gecko API",
         "github": "https://github.com/aanxniee/cryptocurrency"
     },

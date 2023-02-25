@@ -63,10 +63,10 @@ a:focus::after {
 .buttons button {
     display: block;
     width: 100%;
-    height: max(5vw, 5vh);
+    height: max(4vw, 4vh);
     font-family: Poppins;
     font-style: italic;
-    font-size: max(2vw, 2vh);
+    font-size: max(1.7vw, 1.7vh);
     font-weight: 700;
     letter-spacing: -.01em;
     line-height: 1.3;
