@@ -33,7 +33,7 @@ export class HomeComponent implements OnInit, AfterViewInit  {
       cursorColor: '#D2E6D6',
       typeColor: 'white',
       deleteSpeed: 30,
-      typeSpeed: 190,
+      typeSpeed: 100,
       blinkSpeed: 230,
       animateCursor: true,
     })
@@ -53,7 +53,7 @@ export class HomeComponent implements OnInit, AfterViewInit  {
     const writerDark = new Typewriter(targetDark, {
       loop: true,
       deleteSpeed: 30,
-      typeSpeed: 190,
+      typeSpeed: 100,
       blinkSpeed: 230,
       animateCursor: true,
     })
