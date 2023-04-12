@@ -17,7 +17,7 @@
         "jobTitle": "Fullstack Developer",
         "company": "UW Tech+",
         "description": [
-            "Participated in the continuous development of the UW Tech+ website and mentor‐mentee matching portal,used by 150+ students",
+            "Participated in the continuous development of the UW Tech+ website and mentor‐mentee matching portal, used by 150+ students",
             "Designed and developed RESTful APIs using Python Flask to facilitate seamless data exchange between the front-end and back-end systems"
         ],
         "technologies": "React, Python, Flask, PostgreSQL, Docker, S3, Postman",
