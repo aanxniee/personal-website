@@ -1,26 +1,27 @@
 [
+
     {
-        "name": "Cafe Management System",
-        "description": "Lofi Cafe Management System is a retail management system (RMS) that handles basic cafe operations efficiently. Features a JWT authentication system, mailing system, and CRUD operations for managing categories, products, bills, and staff.",
-        "technologies": "Angular, Typescript, HTML5, SCSS, Spring Boot, Java, Maven, mySQL",
-        "github": "https://github.com/aanxniee/cafe-management"
+        "name": "sign:here",
+        "description": "Natural language chat‐bot that allows people to submit legal documents as context and ask any questions regarding the documents. Utilizes semantic search, vector similarity search, and context injection to provide users with the highest accuracy response. ",
+        "technologies": "React, Javascript, Python, Flask, co:here, Qdrant",
+        "github": "https://github.com/michelle4891/sign-here"
     },
     {
         "name": "write:here",
         "description": "Scans an image file for handwritten text, parses it into digital text using AI-powered technology, and sends it as an email. Submitted to Hackville 2023 and won Most Creative Use of Github.",
-        "technologies": "ReactJS, Typescript, NextJS, Google Vision API, co:here NPL",
+        "technologies": "React, Typescript, Next.js, Google Cloud, Google Vision API, co:here",
         "github": "https://github.com/jacque1ine/Hackville"
     },
     {
-        "name": "Cryptocurrency Checker",
-        "description": "Fetches the latest crypto currency data in CAD/USD, including price, 24h change, and market cap. Established a Chart.js and Cloud Firestore based dataflow to allow for dynamic server‐driven content updates.",
-        "technologies": "Angular, Typescript, HTML5, CSS, Coin Gecko API",
-        "github": "https://github.com/aanxniee/cryptocurrency"
+        "name": "Cafe Management System",
+        "description": "Retail management system (RMS) that handles basic cafe operations efficiently. Features a JWT authentication system, mailing system, and CRUD operations for managing categories, products, bills, and staff.",
+        "technologies": "Angular, Typescript, HTML5, SCSS, Spring Boot, Java, Maven, MySQL",
+        "github": "https://github.com/aanxniee/cafe-management"
     },
     {
-        "name": "Sorting Algorithm Visualizer",
-        "description": "Allows users to sort a random array in ascending/descending using bubble sort, insertion sort, selection sort, merge sort, and/or quick sort.",
-        "technologies": "Python, Pygame",
-        "github": "https://github.com/aanxniee/sorting-visualizer"
+        "name": "Apollo",
+        "description": "App that makes Cerebral Palsy (CP) assessments more accessible by using machine learning and computer vision to determine early markers as stated by the HINE model.",
+        "technologies": "Python, OpenCV, Mediapipe, scikit-learn, NumPy, Pandas",
+        "github": "https://github.com/aanxniee/apollo"
     }
 ]

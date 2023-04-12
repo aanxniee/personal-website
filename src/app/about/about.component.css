@@ -28,6 +28,10 @@ a {
     width: 50%;
 }
 
+.tech {
+    font-weight: 600;
+}
+
 @media screen and (max-width: 800px) {
     .about-general {
         display: flex;
