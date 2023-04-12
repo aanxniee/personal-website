@@ -3,9 +3,9 @@
         "jobTitle": "Software Developer",
         "company": "Home Trust Company",
         "description": [
-            "Spearheaded the implementation of SEO optimization tactics,including meta tags,header tags,and content optimization,resulting in a 40% increase in the Oaken Financial website search rankings",
+            "Spearheaded the implementation of SEO optimization tactics, including meta tags, header tags,and content optimization, resulting in a 40% increase in the Oaken Financial website search rankings",
             "Architected end‐to‐end ETL pipeline to transfer over a million rows of data from Azure Blob Storage to Azure SQL",
-            "Created a CD pipeline script in Azure DevOps to streamline the deployment of new Home Digital features,reducing manual deployment efforts by 50%",
+            "Created a CD pipeline script in Azure DevOps to streamline the deployment of new Home Digital features, reducing manual deployment efforts by 50%",
             "Contributed to a new summary widget for the Home Digital app using Angular, offering users a centralized view of their banking data, positively impacting 1000+ clients"
         ],
         "technologies": "Angular, ASP.NET, C#, Azure/Azure DevOps, Umbraco, Wordpress",
