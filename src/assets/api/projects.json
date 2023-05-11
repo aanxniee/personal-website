@@ -1,16 +1,16 @@
 [
 
     {
-        "name": "sign:here",
+        "name": "Sign:Here",
         "description": "Natural language chat‐bot that allows people to submit legal documents as context and ask any questions regarding the documents. Utilizes semantic search, vector similarity search, and context injection to provide users with the highest accuracy response. ",
         "technologies": "React, Javascript, Python, Flask, co:here, Qdrant",
-        "github": "https://github.com/michelle4891/sign-here"
+        "github": "https://github.com/aanxniee/sign-here"
     },
     {
-        "name": "write:here",
+        "name": "Write:Here",
         "description": "Scans an image file for handwritten text, parses it into digital text using AI-powered technology, and sends it as an email. Submitted to Hackville 2023 and won Most Creative Use of Github.",
         "technologies": "React, Typescript, Next.js, Google Cloud, Google Vision API, co:here",
-        "github": "https://github.com/jacque1ine/Hackville"
+        "github": "https://github.com/aanxniee/write-here"
     },
     {
         "name": "Cafe Management System",
