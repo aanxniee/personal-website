@@ -26,6 +26,7 @@ p {
 
 h4 {
     margin: 0; 
+    padding-bottom: 3px;
 }
 
 
@@ -57,7 +58,7 @@ a:focus::after {
 }
 
 .project-description {
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;
 }
 
 .buttons button {

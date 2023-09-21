@@ -41,9 +41,8 @@ export class HomeComponent implements OnInit, AfterViewInit  {
     writerLight
     .strings(
       1500,
-      "a programmer and a lifelong learner. 💻", 
+      "a fullstack developer and a lifelong learner. 💻", 
       "a nature lover and matcha addict. 🍵",
-      "passionate about development and design. ✏️", 
       "working to cultivate a more inclusive and diverse tech community. 💖",
       "excited for new homes in tech. 📚",
       "inspired by people that love what they do. ⭐",
@@ -62,9 +61,8 @@ export class HomeComponent implements OnInit, AfterViewInit  {
     writerDark
     .strings(
       1500,
-      "a programmer and a lifelong learner. 💻", 
+      "a fullstack developer and a lifelong learner. 💻", 
       "a nature lover and matcha addict. 🍵",
-      "passionate about development and design. ✏️", 
       "working to cultivate a more inclusive and diverse tech community. 💖",
       "excited for new homes in tech. 📚",
       "inspired by people that love what they do. ⭐",

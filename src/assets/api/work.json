@@ -1,30 +1,36 @@
 [
     {
+        "jobTitle": "Software Engineer",
+        "company": "RBC, Global Cyber Security",
+        "description": [
+            "Developing a data visualization tool for cybersecurity threat hunting in Joint Security and Operations Centre (JSOC). Enables 80+ internal Red/Blue Teamers to access real-time data on their security readiness and uncover vulnerabilities in their defenses."
+        ],
+        "technologies": "Vue, Typescript, Django, Python, MySQL, Docker, Kubernetes, Redis, Openshift",
+        "date": "Sep 2023 - Dec 2023",
+        "location": "Toronto, ON",
+        "url": "https://www.rbc.com/cyber-security/"
+    },
+    {
         "jobTitle": "Software Developer",
         "company": "Home Trust Company",
         "description": [
-            "Architected end‐to‐end ETL pipeline to transfer over a million rows of data from Azure Blob Storage to Azure SQL",
-            "Created a CD pipeline script in Azure DevOps to streamline the deployment of new Home Digital features, reducing manual deployment efforts by 50%",
-            "Contributed to a new summary widget for the Home Digital app using Angular, offering users a centralized view of their banking data, positively impacting 1000+ clients",
-            "Spearheaded the implementation of SEO optimization tactics, including meta tags, header tags,and content optimization, resulting in a 40% increase in the Oaken Financial website search rankings"
+            "Shipped out new widgets and features for over 2000 clients in the the Home Digital app as a part of the the Digital Banking Team. Automated the migration of client banking data to AzureSQL by architecting ETL pipelines and scripts, reducing manual efforts and processing times."
         ],
-        "technologies": "Angular, Typescript, ASP.NET, C#, Azure/Azure DevOps, Umbraco, Wordpress",
+        "technologies": "Angular, Typescript, ASP.NET, C#, Azure/Azure DevOps",
         "date": "Jan 2023 - Apr 2023",
         "location": "Toronto, ON",
         "url": "https://www.hometrust.ca/"
     },
     {
-        "jobTitle": "Fullstack Developer",
-        "company": "UW Tech+",
+        "jobTitle": "Project Developer",
+        "company": "UW Blueprint",
         "description": [
-            "Participated in the continuous development of the UW Tech+ website and mentor‐mentee matching portal, used by 100+ students",
-            "Architected ETL pipeline to stream data from the mentor‑mentee portal to AWS S3",
-            "Designed and developed RESTful APIs using Python Flask to facilitate seamless data exchange between the front-end and back-end systems"
+            "Building a new suite of recruitment tools to streamline the UW Blueprint recruitment process in the Internal Tools Team. Implemented a robust analytics dashboard, providing the recruitment team with performance indicators and trend analysis, resulting in better decision-making."
         ],
-        "technologies": "React, Python, Flask, PostgreSQL, Docker, AWS S3, Postman",
-        "date": "Jan 2023 - Present",
+        "technologies": "React, Typescript, Express.js, Node.js, PostgreSQL, GraphQL, Docker",
+        "date": "Sep 2023 - Present",
         "location": "Waterloo, ON",
-        "url": "https://www.techplusuw.com/"
+        "url": "https://uwblueprint.org/"
     }
 
 ]
