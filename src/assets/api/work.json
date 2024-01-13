@@ -1,17 +1,17 @@
 [
     {
-        "jobTitle": "Software Engineer",
+        "jobTitle": "Software Engineer Intern",
         "company": "RBC, Global Cyber Security",
         "description": [
-            "Developing a data visualization tool for cybersecurity threat hunting in Joint Security and Operations Centre (JSOC). Enables 80+ internal Red/Blue Teamers to access real-time data on their security readiness and uncover vulnerabilities in their defenses."
+            "Developed a data visualization tool for cybersecurity threat hunting in Joint Security and Operations Centre (JSOC). Enables 80+ internal Red/Blue Teamers to access real-time data on their security readiness and uncover vulnerabilities in their defenses."
         ],
-        "technologies": "Vue, Typescript, Django, Python, MySQL, Docker, Kubernetes, Redis, Openshift",
+        "technologies": "Vue, Typescript, Django, Python, MySQL, Docker, Kubernetes, Redis, Openshift, AWS S3",
         "date": "Sep 2023 - Dec 2023",
         "location": "Toronto, ON",
         "url": "https://www.rbc.com/cyber-security/"
     },
     {
-        "jobTitle": "Software Developer",
+        "jobTitle": "Software Developer Intern",
         "company": "Home Trust Company",
         "description": [
             "Shipped out new widgets and features for over 2000 clients in the the Home Digital app as a part of the the Digital Banking Team. Automated the migration of client banking data to AzureSQL by architecting ETL pipelines and scripts, reducing manual efforts and processing times."
@@ -22,12 +22,12 @@
         "url": "https://www.hometrust.ca/"
     },
     {
-        "jobTitle": "Project Developer",
+        "jobTitle": "Project Lead",
         "company": "UW Blueprint",
         "description": [
-            "Building a new suite of recruitment tools to streamline the UW Blueprint recruitment process in the Internal Tools Team. Implemented a robust analytics dashboard, providing the recruitment team with performance indicators and trend analysis, resulting in better decision-making."
+            "Leading a team of 8 designers and developers to build a new suite of recruitment tools to streamline the UW Blueprint recruitment process in the Internal Tools Team. Implemented a robust analytics dashboard, providing the recruitment team with performance indicators and trend analysis, resulting in better decision-making."
         ],
-        "technologies": "React, Typescript, Express.js, Node.js, PostgreSQL, GraphQL, Docker",
+        "technologies": "React, Typescript, Express.js, Node.js, PostgreSQL, GraphQL, Docker, Firebase",
         "date": "Sep 2023 - Present",
         "location": "Waterloo, ON",
         "url": "https://uwblueprint.org/"
